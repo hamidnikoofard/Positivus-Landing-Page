@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title-text{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+.title-text h2{
+    width: 200px;
+    height: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color:#B9FF66 ;
+    text-align: center;
+}
+.title-text p{
+    width:473px ;
+    height: 46px;
+    
+}
+/* style boxTestimonials */
+ .box-comm{
+    width: 77.5rem;
+    height: 39rem;
+    background-color: #191A23;
+    border-radius: 40px;
+    margin-top: 80px;
+  
+}
+.con-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+.box-comm{
+    display: flex;
+     align-items: center; 
+    gap:50px ;
+}
+.coment{
+ color: white;
+ border: 2px solid green;
+ padding: 48px 52px 48px 52px ;
+ width: 606px;
+ height: 266px;
+ gap: 50px;
+ font-size: 18px;
+ margin-left: 50px;
+ border-radius: 45px;
+}
+
+.box-comm span{
+    color:#B9FF66; 
+}
+
+/* style Contact Us */
+
+.box-contact{
+    width: 77.5rem;
+    height: 48rem;
+    background-color: #F3F3F3;
+      /* display: flex;   */
+      /* justify-content: space-around; */
+     margin-top: 80px;
+    
+}
+
+.btn button{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 62px; 
+    margin-left: 100px;
+}
+.btn span{
+  font-size: 18px; 
+  
+}
+
+.conteiner-btn{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.title-input{
+ width: 34.7rem;
+ height: 3.6rem;
+ margin-top: 5px;
+ border: 2px solid black;
+ border-radius: 14px;
+}
+
+.text-inp{
+    margin-top: 25px;
+    font-size: 16px;
+    
+}
+
+.footer-inp{
+    width: 34.7rem;
+    height: 11.8rem;
+    margin-top: 5px;
+ border: 2px solid black;
+ border-radius: 14px;
+}
+
+.btn-Contact{
+    width:34.7rem ;
+    height: 4.2rem;
+    background-color: #191A23;
+    border: 2px solid #191A23;
+    /* color: white; */
+    border-radius: 14px;
+    text-align: center;
+     display: flex;
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+.btn-Contact button{
+    color: white;
+    background-color: #191A23;
+    border: none;
+    font-size: 20px;
+}
+
+.img-contact img{
+/* margin-left: 215px; */
+
+}
+.display{
+     display: flex; 
+     justify-content: space-between; 
+}
+/* footer */
+
+.footer1{
+    width:77.5rem ;
+    height:32.1rem ;
+    background-color: #191A23;
+    margin-top: 140px;
+    border-radius: 40px 40px 0px 0px;
+    margin-left: 100px;
+}
+
+.Positivus{
+    display: flex;
+}
+.title-footer{
+      display: flex;
+      justify-content: space-between; 
+     padding: 55px;
+}
+
+.title-footer img{
+    width: 30px;
+    height: 29px;
+}
+
+.title-footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.title-footer nav ul li a{
+    color: white;
+    font-size: 18px;
+}
+.icon i{
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.icon a i{
+    color: black;
+}
+.Positivus h4{
+    color: white;
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+.middle{
+    display: flex;
+    gap: 154px;
+    margin-left: 60px;
+    margin-top: 66px;
+    
+}
+.middle-p1 h4{
+    width: 7.8rem;
+    height: 1.6rem;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+.middle-p2{
+    width: 634px;
+    height: 184px;
+    background-color: #292A32;
+    text-align: center;
+    border-radius: 14px;
+}
+.btn-f1{
+    border: 2px solid white;
+    background-color: #292A32;
+    width: 285px;
+    height: 67px;
+    border-radius: 14px;
+    margin-top: 58px;
+}
+.btn-f2{
+    border: 2px solid #292A32;
+    background-color: #B9FF66;
+    width: 285px;
+    height: 67px;
+    border-radius: 14px ;
+    margin-top: 58px;
+}
+.middle-p1 p{
+    margin-top: 20px;
+    color: white;
+}
+  hr{
+    margin-top: 50px;
+  }
+
+  .f-footer{
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-left: 60px;
+    gap: 40px;
+  }
+
+  .f-footer a{
+    color: white;
+  }
+  
